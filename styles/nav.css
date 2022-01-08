@@ -1,0 +1,27 @@
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: opx 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 20px;
+    font-size: 22px;
+    
+
+}
+nav li:hover{
+    background-color: cornflowerblue;
+}
+nav > ul{
+    display: flex;
+}
+.n{
+    display: none;
+    position: absolute;
+    background-color: darkblue;
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
